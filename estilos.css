@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    align-items: center;
+    padding: 30px;
+}
+
+#logo-empresa{
+    display: flex;
+    align-items: center;
+    height: 120px;
+
+}
+
+#logo-empresa{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+nav .link-nav{
+    padding: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+}
+
+nav .link-nav:hover{
+    background: orangered;
+   
+    border-radius: 100px;
+    padding: 20px;
+}
+
+/*********************************************ACA EMPIEZA EL MAPEO DE CSS GRIDD***************************************************************************/
+
+#contenedor{
+    width: 80%;
+    background-color: orange;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.img1{
+    text-align: center;
+}
+
+.img1{
+    width: 250px;
+}
+
+/*SECCION DONDE APLICAMOS 3 SECCIONES CON PARRAFOS*/
+
+#primerseccion{
+    margin-top: 150px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    padding: 50px;
+    text-align: center;
+}
+
+#primerseccion p{
+    text-align: justify;
+}
+
+/*SECCION DONDE SE APLICA VIDEO Y SUBTITULO CON INFORMACION*/
+
+#segundaseccion{
+    margin-top: 100px;
+   
+    margin-top: 50 px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.img2{
+    width: 250px;
+    
+}
+
+#terceraseccion{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer{
+    height: 100px;
+}
+
+#texto1{
+    text-align: justify;
+    padding: 20px;
+}
+
+#texto2{
+    text-align: justify;
+}
+
+footer{
+    height: 115px;
+    background-color: burlywood;
+    margin-top: 100px;
+
+    text-align: center;
+    padding-top: 20px;
+}
